@@ -92,13 +92,7 @@ scanf("%d",&id);
 printf("Inserisci cifre numero: ");
 scanf("%d",&n);
 segreto=generasegreto(n);
-if (id==16031982)
-{
-printf("Benvenuto Kobra82\n");
-printf("Numero Segreto = %d\n",segreto);
-printf("DEBUG MODE ACTIVE");
-}
-else printf("Benvenuto Giocatore\n");
+printf("Benvenuto Giocatore\n");
 int i;
 //inizializziamo il vettore
 for (i=0; i<20; i++)
