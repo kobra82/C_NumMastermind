@@ -23,7 +23,6 @@ for (i=1;i<=(n-1);i++)
 a=a*10;
 randomize;
 segreto=GetRandom(a,((a*10)-1));
-//printf("%d\n", segreto);
 return segreto;
 }
 
